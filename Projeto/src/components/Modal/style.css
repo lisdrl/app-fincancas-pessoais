@@ -1,0 +1,170 @@
+.position-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(61, 61, 61, 0.48);
+  
+    min-height: 100vh;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 660px;
+    height: 779px;
+    
+    padding: 61px 65px;
+    
+    font-family: var(--Rubik);
+    
+    border-radius: 20px;
+  
+    background-color: #FFFFFF;
+}
+
+
+.modal-container h1 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  
+    padding-bottom: 25px;
+  
+    width: 100%;
+  
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 43px;
+}
+
+.close-icon {
+    width: 45px;
+    height: 45px;
+  
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.entrada-saida {
+    display: flex;
+    
+    width: 652.5px;
+    height: 62px;
+    
+    margin-bottom: 35px;
+  
+    border-radius: 10px;
+}
+
+#credit-button, #debit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 50%;
+  
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+#debit-button {
+    border-radius: 0px 10px 10px 0px;
+  
+    cursor: pointer;
+}
+
+#credit-button {
+    border-radius: 10px 0px 0px 10px;
+  
+    cursor: pointer;
+}
+
+.greyish {
+    background-color: #B9B9B9;
+}
+
+.colored-saida {
+    background-image: linear-gradient(to right, #FA8C10 , #FF57D3);
+}
+
+.colored-entrada {
+    background-image: linear-gradient(to right, #05EDE3 , #6460FB);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.input-container {
+    color: #484848;
+    width: 100%;
+  
+}
+
+.input-container label {
+    padding-bottom: 9px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.modal-input {
+    width: 630px;
+    height: 62px;
+    
+    margin-bottom: 30px;
+    padding-left: 20px;
+  
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+  
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 5px;
+}
+  
+.btn-insert {
+    all: unset;
+    box-sizing: border-box;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
+    width: 50%;
+    height: 62px;
+  
+    font-family: var(--Rubik);
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #FFFFFF;
+    
+    background: #645FFB;
+    border-radius: 5px;
+  
+    margin-top: 15px;
+  
+    cursor: pointer;
+}
